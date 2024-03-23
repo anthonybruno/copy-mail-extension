@@ -1,7 +1,7 @@
 {
   "name": "copy-email-extension",
   "version": "1.0.0",
-  "description": "",
+  "description": "Copy mailto links to your clipboard rather than macOS opening Mail.app",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -14,7 +14,7 @@
     "build": "npm run clean && npm run copyfiles && npm run tailwind && npm run compile",
     "dev": "npm run clean && npm run copyfiles && npm run tailwind && npm run watch"
   },
-  "author": "",
+  "author": "Anthony Bruno",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.11.30",
