@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <title>Copy email links options</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body
+    class="max-w-md mx-auto font-sans text-base leading-5 antialiased space-y-14 py-10"
+  >
+    <header>
+      <h1 class="text-1xl font-bold">Copy email links options</h1>
+    </header>
+    <main class="space-y-10">
+      <div class="space-y-4">
+        <label class="block font-bold" for="display">
+          Display notification
+        </label>
+        <label class="block cursor-pointer">
+          <input type="checkbox" id="display" class="relative top-[1px] mr-1" />
+          Display a notification when an email is copied
+        </label>
+      </div>
+      <div class="space-y-4">
+        <label class="block font-bold" for="color">
+          Notification appearance
+        </label>
+        <select
+          id="color"
+          class="appearance-none block w-1/2 cursor-pointer border border-neutral-300 bg-neutral-100 rounded-lg p-2"
+        >
+          <option value="dark">Dark mode</option>
+          <option value="light">Light mode</option>
+        </select>
+      </div>
+      <div class="flex space-x-6">
+        <button
+          class="inline-block p-2 font-bold text-white rounded transition-colors bg-cyan-700 hover:bg-cyan-500"
+          id="save"
+        >
+          Save options
+        </button>
+        <div id="status" class="p-2 text-teal-600"></div>
+      </div>
+    </main>
+    <footer class="border-t-2">
+      <ul class="flex space-x-5 mt-6">
+        <li>
+          <a
+            class="text-cyan-500 hover:text-cyan-600 hover:underline transition-colors"
+            href="https://abruno.net/copy-mailto-privacy.html"
+          >
+            Privacy policy
+          </a>
+        </li>
+        <li>
+          <a
+            class="text-cyan-500 hover:text-cyan-600 hover:underline transition-colors"
+            href="https://abruno.net"
+          >
+            Developer website
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="content-options.js"></script>
+  </body>
+</html>
